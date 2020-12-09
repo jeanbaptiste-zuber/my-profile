@@ -1,0 +1,111 @@
+/*colours and fonts */
+
+body {
+	background-color: #E0D8DE;
+	font-family: 'Lora', serif;
+	font-size : 15px;
+}
+
+h1,h2 {
+	font-family:'Roboto',sans-serif;
+}
+
+h1 {
+	color: #DD6031;
+	font-weight:900;
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h2 {
+	color: #DD6031;
+	font-weight:700;
+	font-size: 24px;
+	text-align: center;
+}
+
+ul	{
+	color: #582B11;
+	text-align: center;
+	list-style-type: none;
+}
+
+p {
+	color: #582B11;
+	text-align: left;
+	font-size: 16px;
+}
+
+a {
+	color: #DD6031;
+	text-decoration: none;
+}
+
+a:hover	{
+	color: #666A86;
+}
+
+/*custom design with class */
+
+#moi {
+	width: 350px;
+	border-radius: 5px;
+	margin: 20px 0px;
+	max-width : 100%;
+	height: auto;
+}
+
+#introduction p {
+	text-align : center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.container {
+	width: 1000px;
+	margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white{
+	background: white;
+    padding: 40px;
+    margin: 15px 0px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.img-center {
+	width: 300px;
+	border-radius: 6px;
+	margin: 20px 0px;
+	max-width : 100%;
+	height: auto;
+}
+
+.card-white:hover {
+	background: #F4FDD9;
+	color: white;
+}
+
+
